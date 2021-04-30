@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.row{
+    background-color: #111;
+    color:white
+}
+
+.description h1{
+    font-weight: 700;
+    font-size: 45px!important;
+}
+.about button{
+   color: #ffb400;
+   border:1px solid #ffb400;
+   font-weight:700;
+   padding:15px 40px;
+   border-radius:2em;
+   background-color:#111;
+}
+.about button:hover{
+    background-color: #ffb400;
+    color: black;
+    border: 1px solid black;
+}
+.image{
+    max-width:450px;
+    width: 100%;
+    height: auto
+}
+.text{
+    line-height: 2rem;
+    text-align: justify;
+}
