@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.projectDetails{
+    background-color: #111;
+    color: white
+}
+li{
+    list-style:none;
+}
+.projectDetails img{ 
+    width: 450px;
+    height: 200px;
+    border-radius:7px
+}
+.live-link{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: #ffb400;
+}
+.live-link:hover{
+    color: white;
+}
+.half-width{
+    border-right: 1px solid #ffb400;
+}
+
+.name{
+    font-family: 'Pacifico', cursive;
+    color: #ffb400;
+}

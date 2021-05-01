@@ -9,6 +9,7 @@ import Blogs from './components/Blogs/Blogs'
 import Projects from './components/Projects/Projects'
 import CoverLetter from './components/CoverLetter/CoverLetter'
 import Contact from './components/Contact/Contact'
+import ProjectDetails from './components/Projects/ProjectDetails/ProjectDetails'
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,9 @@ function App() {
           <Route path='/projects'>
             <Projects />
           </Route>
+          <Route path='/projectsDetails/:id'>
+            <ProjectDetails />
+           </Route> 
           <Route path='/coverLetter'>
             <CoverLetter /> 
           </Route> 

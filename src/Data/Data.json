@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "name": "Crystal Events",
+        "img" : "https://i.ibb.co/KGzgV3s/Project1.png",
+        "description" : "Crystal Events is a event management project. A client can book different types of services like event coordination, event planning, event entertainment etc. A awesome dashboard implemented in this project for both client and admin panel. A user friendly UI design makes the project next level. I'm still work on it.",
+        "features1": 
+        "1. A client can book different types of services.",
+        "features2": 
+        "2. Sign In is required for booking. Google sign in method is implemented for sign in.",
+        "features3": 
+        "3. Stipe Payment method is implemented for client payment",
+        "features4": 
+        "4. Different Dashboard system for both user and admin.",
+        "features5": 
+        "5. A specific user can see only his data instead of all data where an admin can see all of user data for booking",
+        "featureImg1":"https://i.ibb.co/8gbFsyX/Crys-Add-Service.png",
+        "featureImg2":"https://i.ibb.co/K9RF9MG/Crystal-deleteservice.png",
+        "featureImg3":"https://i.ibb.co/JjhhRPc/Csyt-review.png",
+        "Live":"https://crystalevents-203ff.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "Food Desire",
+        "img" : "https://i.ibb.co/B4KyN9K/Project2.png",
+        "description" : "Food Desire is a E-commerce Type project. A user can buy different types of product like grocery, electronic, cloths etc. A awesome dashboard implemented in this project for both client and admin panel. A user friendly UI design makes the project next level. I'm still work on it.",
+        "features1": 
+        "1. A client can Buy different types of Product From the site.",
+        "features2": 
+        "2. Sign In is required for checkout. Google sign in method is implemented for sign in.",
+        "features3": 
+        "3. Only Admin can add product or delete product from site",
+        "features4": 
+        "4. Different Dashboard system for both user and admin.",
+        "features5": 
+        "5. A specific user can see only his data instead of all data where an admin can see all of user data for booking",
+        "featureImg1":"https://i.ibb.co/qxD4GxP/Food-Desire-Check.png",
+        "featureImg2":"https://i.ibb.co/353TRHL/Food-Order-li.png",
+        "featureImg3":"https://i.ibb.co/dJv96C6/food-dele.png",
+        "Live": "https://fresh-valley-a4b15.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "City Rider",
+        "img" : "https://i.ibb.co/bQ13khF/Project3.png",
+        "description" : "City Rider is basically a react with firebase authentication project. Where I build different types of authentication google, facebook and email authentication system. A user can search how many vahicle for from to destination, also integrate a google map in the project. A user friendly UI design makes the project next level. I'm still work on it.",
+        "features1": 
+        "1. A user can choose vahicle as user's wish and book it.",
+        "features2": 
+        "2. Sign In is required for booking. Google sign, facebook sign in and email sign in method is implemented for sign in.",
+        "features3": 
+        "3. A beautiful google map is integrate for making user friendly",
+        "features4": 
+        "4. Different Dashboard system for both user and admin.",
+        "features5": 
+        "5. A specific user can see only his data instead of all data where an admin can see all of user data for booking",
+        "featureImg1":"https://i.ibb.co/bQ13khF/Project3.png",
+        "featureImg2":"https://i.ibb.co/JnQKvVD/googlemap.png",
+        "featureImg3":"https://i.ibb.co/KzrFDr4/destination.png",
+        "Live":"https://city-riders-752aa.web.app/"
+    }
+]
