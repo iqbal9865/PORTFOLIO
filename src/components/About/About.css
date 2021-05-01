@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.about-main{
+    background-color: #111;
+}
+.experience{
+    border-right:1px solid #ffb400
+}
+.title{
+    font-family: 'Pacifico', cursive;
+}
+.progress-bar{
+    background-color: #ffb400!important
+}
+body{
+    background-color: #111;
+}
+.about-me img{
+    width:420px;
+    height: auto;
+    border-radius:20px;
+   
+}
+@media screen and (max-width: 600px){
+    .about-me img{
+        max-width: 370px;
+    }
+}
+.about-text{
+    font-size: 21px;
+}

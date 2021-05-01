@@ -7,9 +7,9 @@ import {
 import Home from './components/Home/Home';
 import Blogs from './components/Blogs/Blogs'
 import Projects from './components/Projects/Projects'
-import CoverLetter from './components/CoverLetter/CoverLetter'
 import Contact from './components/Contact/Contact'
 import ProjectDetails from './components/Projects/ProjectDetails/ProjectDetails'
+import About from './components/About/About';
 function App() {
   return (
     <div className="App">
@@ -27,8 +27,8 @@ function App() {
           <Route path='/projectsDetails/:id'>
             <ProjectDetails />
            </Route> 
-          <Route path='/coverLetter'>
-            <CoverLetter /> 
+          <Route path='/about'>
+            <About /> 
           </Route> 
           <Route path='/contact'>
             <Contact /> 
