@@ -18,9 +18,9 @@ const Header = () => {
                     <h1 >WEB DEVELOPER</h1>
                </div>
                <div className="about py-3">
-                   <strong className='text'>
-                   I'm a Curious JavaScript Programmer & MERN STACK developer  focused on  <br/> crafting clean  & user‑friendly experiences, I am  passionate about building  <br/> excellent  software that improves the lives of those around me 
-                   I just  want to expose  <br/> my skills in the field of ‘web development’ and want to learn a lot of things.
+                   <strong className='text text-start'>
+                   I'm a Curious JavaScript Programmer & MERN STACK Web developer  focused on   crafting clean  & user‑friendly experiences, I am  passionate about building  excellent  software that improves the lives of those around me 
+                   I just  want to expose  my skills in the field of ‘web development’ and want to learn a lot of things. Coding is my passion, I don't feel bored when I coding. SO you are always welcome in My World!
                    </strong>
                    <br/> <br/>
                    <a href="https://drive.google.com/uc?export=download&id=140-HWDdvLqCnmp4VmsRVPUP__6IfV-fc" ><button className='button'>DOWNLOAD RESUME</button></a>

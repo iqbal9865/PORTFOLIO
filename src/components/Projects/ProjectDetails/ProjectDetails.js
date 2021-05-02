@@ -37,19 +37,19 @@ const ProjectDetails = () => {
         <h1 className='name mt-5 mb-5'> {name}</h1>
                 <div className="col-md-6  half-width">
                     <h3>Project Description</h3>
-                    <strong className='d-flex justify-content-center'>{description}</strong> <br/>
-                    <h4><a className='live-link' href="https://city-riders-752aa.web.app/">LIVE SITE</a></h4>
+                    <p className='d-flex justify-content-center text-start text-justify'>{description}</p> <br/>
+                    <h4><a className='live-link' href={Live}>LIVE SITE</a></h4>
                 </div>
                 
             <div className="col-md-6">
                 <h3>Project Features</h3>
                 <div className='d-flex justify-content-center'>
                    <div>
-                    <strong>{features1}</strong><br/>
-                    <strong>{features2}</strong><br/>
-                    <strong>{features3}</strong><br/>
-                    <strong>{features4}</strong><br/>
-                    <strong>{features5}</strong>
+                    <p className='text-start'>{features1}</p>
+                    <p className='text-start'>{features2}</p>
+                    <p className='text-start'>{features3}</p>
+                    <p className='text-start'>{features4}</p>
+                    <p className='text-start'>{features5}</p>
                     </div> 
                 </div>
             </div>
