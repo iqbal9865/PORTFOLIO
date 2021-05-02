@@ -12,7 +12,7 @@ const ProjectDetails = () => {
     useEffect(() => {
       setProject(Data.find(dt => dt.id == id))
       console.log(Data)
-    },[])
+    },[id])
     const {img,name,description,features1,features2,features3,features4,features5,Live} = project;
 
     return (
