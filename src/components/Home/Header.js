@@ -1,12 +1,9 @@
 import React from 'react';
 import './Header.css'
 import iqbal1 from '../../Images/Iqbal1.png'
-import iqbal2 from '../../Images/Iqbal2.png'
-import ReactDOM from 'react-dom'
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
-import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
-import { library} from '@fortawesome/fontawesome-svg-core'
 import { faFacebook,faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {

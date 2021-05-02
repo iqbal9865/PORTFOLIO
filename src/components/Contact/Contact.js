@@ -2,16 +2,16 @@ import React from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
 import { useForm } from "react-hook-form";
 import './Contact.css'
-import ReactDOM from 'react-dom'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
-import { library} from '@fortawesome/fontawesome-svg-core'
+
 import { faFacebook,faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
     
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, formState: { errors } } = useForm();
     return (
         <div>
             <Navbar/>
