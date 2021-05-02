@@ -30,3 +30,23 @@
     line-height: 2rem;
     text-align: justify;
 }
+#animated{
+   width: 0ch;
+   overflow: hidden;
+   white-space: nowrap;
+   animation: text 7s steps(19) infinite;  
+} 
+@keyframes text{
+    0%,100%{
+        width: 0ch;
+    }
+    50%{
+        width: 19ch;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #animated{
+        margin-left: 0!important;
+        font-size:34px!important;
+    }
+}

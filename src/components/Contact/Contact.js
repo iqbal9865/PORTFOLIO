@@ -10,7 +10,7 @@ import { library} from '@fortawesome/fontawesome-svg-core'
 import { faFacebook,faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
-    const onSubmit = data => console.log(data);
+    
     const { register, handleSubmit, formState: { errors } } = useForm();
     return (
         <div>
@@ -47,7 +47,8 @@ const Contact = () => {
 
                     </div>
                     <div className='col-md-8 col-12'>
-                      <form className='form' onSubmit={handleSubmit(onSubmit)}>
+                      <form className='form' target='_blank' action="https://formspree.io/f/xgerozkq"
+                        method="POST">
                         <div className='d-flex'>
                             <div className="form-group container col-md-4 col-6">
                             <input className="form-control" placeholder='Enter Your Name' {...register("name", { required: true })} />
@@ -59,7 +60,7 @@ const Contact = () => {
                             </div>
 
                             <div className="form-group container col-md-4">
-                            <input className="form-control" placeholder='Your Subject' {...register("subject", { required: true })} />
+                            <input className="form-control" placeholder='Your Subject' {...register("subject")} />
                             </div>
                         </div>
                         <div className='form-group container'>

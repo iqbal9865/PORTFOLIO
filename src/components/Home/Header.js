@@ -17,16 +17,16 @@ const Header = () => {
             </div>
             <div className='col-md-7 col-sm-12 description '>
                <div>
-                    <h1 className='pt-5' style={{color: '#ffb400',letterSpacing:'1px'}}> Hi !  I'M IQBAL AHMED.</h1>
-                    <h1>WEB DEVELOPER</h1>
+                    <h1 id='animated' className='pt-5' style={{color: '#ffb400',letterSpacing:'1px',marginLeft:'90px'}}> Hi !  I'M IQBAL AHMED.</h1>
+                    <h1 >WEB DEVELOPER</h1>
                </div>
                <div className="about py-3">
                    <strong className='text'>
-                   I'm a Curious JavaScript Programmer & front‑end developer  focused on  <br/> crafting clean  & user‑friendly experiences, I am  passionate about building  <br/> excellent  software that improves the lives of those around me 
+                   I'm a Curious JavaScript Programmer & MERN STACK developer  focused on  <br/> crafting clean  & user‑friendly experiences, I am  passionate about building  <br/> excellent  software that improves the lives of those around me 
                    I just  want to expose  <br/> my skills in the field of ‘web development’ and want to learn a lot of things.
                    </strong>
                    <br/> <br/>
-                   <a href="./Updated_Resume_Iqbal_Ahmed.pdf" download ><button className='button'>DOWNLOAD RESUME</button></a>
+                   <a href="https://drive.google.com/uc?export=download&id=140-HWDdvLqCnmp4VmsRVPUP__6IfV-fc" ><button className='button'>DOWNLOAD RESUME</button></a>
                </div>
                <div className='text-end mt-5'>
                <a href="https://www.facebook.com/IqbalEmon142/"><FontAwesomeIcon style={{fontSize:'30px',margin:'10px',color:'#fff'}} icon={faFacebook} /></a>

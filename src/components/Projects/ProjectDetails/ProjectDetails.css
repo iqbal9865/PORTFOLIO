@@ -13,6 +13,12 @@ li{
     height: 200px;
     border-radius:7px
 }
+@media screen and (max-width:600px){
+    .projectDetails img{
+        width: 400px!important;
+        height: 200px!important;
+    }
+}
 .live-link{
     text-decoration: none;
     font-family: 'Pacifico', cursive;
@@ -23,6 +29,11 @@ li{
 }
 .half-width{
     border-right: 1px solid #ffb400;
+}
+@media screen and (max-width: 600px){
+    .half-width{
+        border-right: none;
+    }
 }
 
 .name{
