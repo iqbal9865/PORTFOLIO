@@ -7,15 +7,15 @@ import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneSquareAlt,faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 const AboutMe = () => {
     return(
-        <div className='about-main py-4 w-75 m-auto'>
-            <h1 className='title py-5'>My Resume</h1>
+        <div className='about-main py-4 container'>
+            <h1 className='title py-2'>MY RESUME</h1>
             <div className="row about-me">
                 <div className="col-md-6">
                     <img className='image-fluid' src={Iqbal2} alt=""/>
                 </div>
                 <div className="col-md-6">
-                    <p className='text-start about-text mt-4'>I'm Iqbal Ahmed, Bangladeshi based web designer and MERN STACK developer living in Sylhet focused on crafting clean, creative and user‑friendly experiences, I build beautiful and powerful websites.</p>
-                    <div className='py-3'>
+                    <p className='text-start about-text mt-5'>I'm Iqbal Ahmed, Bangladeshi based web designer and MERN STACK developer living in Sylhet focused on crafting clean, creative and user‑friendly experiences, I build beautiful and powerful websites.</p>
+                    <div className='py-3 container'>
                        <div className='d-flex'>
                        <div className='text-start px-3' style={{fontSize:'30px', color:'#ffb400'}}><FontAwesomeIcon icon={faEnvelopeOpen} />
                         </div>

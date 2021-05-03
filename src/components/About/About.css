@@ -19,17 +19,39 @@ body{
     height: 420px;
     margin-bottom: 2rem!important
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
     .about-me img{
-        max-width: 370px;
+        max-width: 320px;
+        height: 340px
     }
 }
 
 .about-text{
-    font-size: 20px
+    font-size: 20px;
+    text-align: justify!important;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .experience{
         border-right: none;
+    }
+    .exp{
+        display:flex;
+        justify-content: start;
+        
+    }
+    .edu, .exp{
+        margin-bottom: 10px!important;
+        
+    }
+    .experience, .education{
+        margin: 20px;
+    }
+    .about-text{
+        margin: 20px 40px!important;
+        text-align: justify!important;
+    }
+    #edu-text, #exp-text{
+        text-align: justify!important;
+        margin-right: 25px!important;
     }
 }

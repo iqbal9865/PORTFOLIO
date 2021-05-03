@@ -3,8 +3,8 @@ import React from 'react';
 const Skills = () => {
     return (
         <div className='about-main'>
-            <h1 className='title pt-5'>My Skills</h1>
-            <div className="row w-75 m-auto">
+            <h1 className='title pt-5'>MY SKILLS</h1>
+            <div className="row container m-auto">
                 <div className="col-md-6 my-4">
                     <h5 className='text-start'>React.js</h5>
                     <div class="progress mb-4">
