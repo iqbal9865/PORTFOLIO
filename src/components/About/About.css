@@ -6,7 +6,7 @@
     border-right:1px solid #ffb400
 }
 .title{
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
 }
 .progress-bar{
     background-color: #ffb400!important
@@ -15,12 +15,11 @@ body{
     background-color: #111;
 }
 .about-me img{
-    width:450px;
-    height: auto;
-    border-radius:20px;
-   
+    width:420px;
+    height: 420px;
+    margin-bottom: 2rem!important
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .about-me img{
         max-width: 370px;
     }

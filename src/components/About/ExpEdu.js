@@ -15,7 +15,7 @@ const ExpEdu = () => {
                     <h3 className='text-start px-3 mb-5'>Education</h3>
                     <p className='text-start px-3'>30 Dec 2017 - Present</p>
                     <h4 className='text-start px-3'>BSc in CSE - City University.</h4>
-                    <p className='text-start px-3'>I was an Intern there. My job was building user friendly website using WordPress's themes and plugins. During working here I'm include in Web Development sector.</p>
+                    <p className='text-start px-3'>Here I am participate with many club activities. I am the Co-convener of BASIS student forum City University Chapter. I'm also an executive member of City University Programming Club</p>
                 </div>
             </div>
             </div> 

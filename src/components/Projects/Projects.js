@@ -20,6 +20,7 @@ const Projects = () => {
                         Data.map(project => 
                          <div className='col-md-4  pb-5' onClick={() => handleInfo(project.id)}>
                             <img className='image-fluid' src={project.img} alt=""/>
+                            <h3 className='title m-3'>{project.name}</h3>
                         </div> )
                     }
                 </div>

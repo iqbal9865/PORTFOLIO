@@ -2,7 +2,7 @@
     max-width: 100%!important
 }
 input{
-    border-radius: 1em!important;
+    /* border-radius: 1em!important; */
     border: 1px solid #111!important;
     background: #252525!important;
     color: white!important;
@@ -12,7 +12,7 @@ input{
    
 }
 textarea{
-    border-radius: 2em!important;
+    /* border-radius: 2em!important; */
     margin-top: 2em;
     border: 1px solid #111!important;
     background: #252525!important;
@@ -25,7 +25,7 @@ textarea{
     padding: 15px 80px!important;
     margin: 0 25px;
     text-transform: uppercase;
-    border-radius: 2em!important;
+    /* border-radius: 2em!important; */
     border: 1px solid #ffb400!important;
     background-color: #111!important;
     font-size: 16px;
@@ -36,4 +36,15 @@ textarea{
 .submit:hover{
     background-color: #ffb400!important;
     transform: scale(1.04);
+}
+@media screen and (max-width: 768px) {
+    .get-in-touch{
+        font-size: 35px!important;
+        margin: 25px 0!important;
+        display:flex!important;
+        justify-content: start!important;
+    }
+    .submit{
+        padding: 10px 40px!important;
+    }
 }

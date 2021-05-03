@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <div className='col-md-7 col-sm-12 description '>
                <div>
-                    <h1 id='animated' className='pt-5' style={{color: '#ffb400',letterSpacing:'1px',marginLeft:'90px'}}> Hi !  I'M IQBAL AHMED.</h1>
+                    <h1 id='animated' className='pt-5' style={{color: '#ffb400',letterSpacing:'1px',marginLeft:'90px'}}> Hi I'M IQBAL AHMED.</h1>
                     <h1 >WEB DEVELOPER</h1>
                </div>
                <div className="about py-3">
@@ -25,7 +25,7 @@ const Header = () => {
                    <br/> <br/>
                    <a href="https://drive.google.com/uc?export=download&id=140-HWDdvLqCnmp4VmsRVPUP__6IfV-fc" ><button className='button'>DOWNLOAD RESUME</button></a>
                </div>
-               <div className='text-end mt-5'>
+               <div className='text-end mt-3'>
                <a href="https://www.facebook.com/IqbalEmon142/"><FontAwesomeIcon style={{fontSize:'30px',margin:'10px',color:'#fff'}} icon={faFacebook} /></a>
                 <a href="https://github.com/iqbal9865"><FontAwesomeIcon style={{fontSize:'30px',margin:'10px',color:'#fff'}} icon={faGithub} /></a>
                 <a href="https://www.linkedin.com/in/iqbal-ahmed43/"><FontAwesomeIcon style={{fontSize:'30px',margin:'10px',color:'#fff'}} icon={faLinkedin} /></a>
