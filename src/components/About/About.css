@@ -55,3 +55,9 @@ body{
         margin-right: 25px!important;
     }
 }
+.pg-bar{
+    transition: transform .2s;
+}
+.pg-bar:hover{
+    transform: scale(1.03);
+}

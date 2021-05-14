@@ -3,7 +3,7 @@ import Navbar from '../Shared/Navbar/Navbar';
 import Header from './Header'
 const Home = () => {
     return (
-        <div>
+        <div>   
             <Navbar />
             <Header />
         </div>

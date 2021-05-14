@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .row{
-    background-color: #111;
+    /* background-color: #111; */
     color:white
 }
 
@@ -58,4 +58,7 @@
         text-align: justify!important;
     }
 
+}
+.social-link:hover{
+    color: #ffb400!important;
 }
