@@ -19,8 +19,30 @@
         "featureImg3":"https://i.ibb.co/JjhhRPc/Csyt-review.png",
         "Live":"https://crystalevents-203ff.web.app/"
     },
+
     {
         "id": 2,
+        "name": "Doctors Portal",
+        "img" : "https://i.ibb.co/vmfmnQk/chair.png",
+        "description" : "Doctors Portal is a Hospital based project. It stand for patients appointment through the websites. A patient can book an appointment by using his account. Patient can choose the date of appointment and category of the appointment then book it. Different types of Dashboard in this website, one is for user, another is for admin panel.",
+        "features1": 
+        "1. A patient can book an appointment with proper time and checkup category.",
+        "features2": 
+        "2. Sign In is required for booking. Facebook & Google and sign in method is implemented for sign in.",
+        "features3": 
+        "3. Only Admin can add doctors and can see all the patient information",
+        "features4": 
+        "4. Different Dashboard system for both user and admin.",
+        "features5": 
+        "5. A specific user can see only his data instead of all data where an admin can see all of user data for booking as well as everyone can review of the service and this review can see in home page",
+        "featureImg1":"https://i.ibb.co/sJZ0dsV/doctor-portal-appointment.png",
+        "featureImg2":"https://i.ibb.co/mG6svsP/doctor-portal-appointment-By-Date.png",
+        "featureImg3":"https://i.ibb.co/jDBLZf5/doctors-portal-add-Doctor.png",
+        "Live": "https://doctors-portal-91849.firebaseapp.com/"
+    },
+
+    {
+        "id": 3,
         "name": "Food Desire",
         "img" : "https://i.ibb.co/B4KyN9K/Project2.png",
         "description" : "Food Desire is a E-commerce Type project. A user can buy different types of product like grocery, electronic, cloths etc. A awesome dashboard implemented in this project for both client and admin panel. A user friendly UI design makes the project next level. I'm still work on it.",
@@ -39,8 +61,9 @@
         "featureImg3":"https://i.ibb.co/dJv96C6/food-dele.png",
         "Live": "https://fresh-valley-a4b15.web.app/"
     },
+
     {
-        "id": 3,
+        "id": 4,
         "name": "City Rider",
         "img" : "https://i.ibb.co/bQ13khF/Project3.png",
         "description" : "City Rider is basically a react with firebase authentication project. Where I build different types of authentication google, facebook and email authentication system. A user can search how many vahicle for from to destination, also integrate a google map in the project. A user friendly UI design makes the project next level. I'm still work on it.",
