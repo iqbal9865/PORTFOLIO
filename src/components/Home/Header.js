@@ -9,7 +9,7 @@ const Header = () => {
     return (
         
         <div className='row p-5 w-100 m-auto'>      
-            <div className='col-md-5 col-sm-12 image-section'>
+            <div className='col-md-5 col-sm-12 image-section '>
                <img className='img-fluid image' src={iqbal1} alt=""/>
             </div>
             <div className='col-md-7 col-sm-12 description '>
