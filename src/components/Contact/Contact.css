@@ -2,20 +2,19 @@
     max-width: 100%!important
 }
 input{
-    /* border-radius: 1em!important; */
-    border: 1px solid #111!important;
-    background: #252525!important;
+    border-radius: 0!important;
+    border: 1px solid white!important;
+    background: #222B45!important;
     color: white!important;
     outline: none !important;
     transition: .3s;
-    padding: 10px 09px!important;
-   
+    padding: 10px 09px!important;   
 }
 textarea{
-    /* border-radius: 2em!important; */
+     border-radius: 0!important; 
     margin-top: 2em;
-    border: 1px solid #111!important;
-    background: #252525!important;
+    border: 1px solid white!important;
+    background: #222B45!important;
     padding: 20px 25px!important;
     color: white!important;
     outline: none !important;
@@ -27,7 +26,7 @@ textarea{
     text-transform: uppercase;
     /* border-radius: 2em!important; */
     border: 1px solid #ffb400!important;
-    background-color: #111!important;
+    background-color: #222B45!important;
     font-size: 16px;
     font-weight: 700;
     transition: transform .2s;

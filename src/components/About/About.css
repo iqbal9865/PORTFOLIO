@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .about-main{
-    background-color: #111;
+    background-color: #222B45;
 }
 .experience{
     border-right:1px solid #ffb400
@@ -12,7 +12,7 @@
     background-color: #ffb400!important
 }
 body{
-    background-color: #111;
+    background-color: #222B45;
 }
 .about-me img{
     width:420px;

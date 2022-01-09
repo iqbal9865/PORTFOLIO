@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .row{
-    /* background-color: #111; */
+    background-color: #222B45;
     color:white
 }
 
@@ -14,12 +14,12 @@
    font-weight:700;
    padding:15px 40px;
    border-radius:2em;
-   background-color:#111;
+   background-color: #222B45;
 }
 .about button:hover{
     background-color: #ffb400;
-    color: black;
-    border: 1px solid black;
+    color: #222B45;
+    border: 1px solid #222B45;
 }
 .image{
     max-width:450px;

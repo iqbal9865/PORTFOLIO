@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor:'#222B45'}}>
     {/* <div className="container"> */}
 
         <div className="navi container-fluid w-100">
