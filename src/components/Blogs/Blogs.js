@@ -12,10 +12,11 @@ const Blogs = () => {
     return (
         <div>
             <Navbar/>
-            <div className='row container m-auto'>
+          <div className="p-3 ">
+          <div className='row '>
                 <h1 style={{color:'#ffb400'}} className='my-4'>MY BLOGS</h1>
                 
-                <div className="col-lg-4 col-md-6 col-12 my-3">
+                <div className="col-lg-4 col-md-6 col-12 mb-5">
                 <div className="card m-auto" style={{width: '21rem', height: '20rem'}}>
                     <a style={textStyle} target='_blank' href="https://iqbalahmed9865.medium.com/10-javascript-interview-questions-that-you-need-to-know-36750ed7ff06">
                     <img style={{height:'13rem'}} className="card-img-top image-fluid" src={int} alt="Card image cap" />
@@ -25,7 +26,7 @@ const Blogs = () => {
                 </div>
 
                 </div>
-              <div className="col-lg-4 col-md-6 col-12  my-3">
+              <div className="col-lg-4 col-md-6 col-12  mb-3">
               <div className="card m-auto" style={{width: '21rem',height: '20rem'}}>
                   <a  style={textStyle} target='_blank' href="https://iqbalahmed9865.medium.com/10-important-es6-things-that-every-js-developer-should-know-1981b8b1d88a">
                     <img  style={{height:'13rem'}} className="card-img-top  image-fluid" src={JavaScript} alt="Card image cap" />
@@ -36,7 +37,7 @@ const Blogs = () => {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-12 my-3">
+              <div className="col-lg-4 col-md-6 col-12 mb-3">
               <div className="card m-auto" style={{width: '21rem', height: '20rem'}}>
                   <a  style={textStyle}  href="https://iqbalahmed9865.medium.com/10-fundamental-concept-of-react-js-that-you-should-know-as-a-react-js-developer-565231a8fddb" target='_blank'>
                     <img className="card-img-top image-fluid" style={{height:'13rem'}} src={react} alt="Card image cap" />
@@ -59,6 +60,7 @@ const Blogs = () => {
               </div>
 
             </div>
+          </div>
         </div>
     );
 };

@@ -18,16 +18,16 @@ const ProjectDetails = () => {
     return (
         <div>
             <Navbar />
-            <div className='projectDetails py-5'>
-                <div className="row m-2">
-                    <div className="col-md-4 featureImage-section my-3">
-                        <img className='image-fluid h-100 w-100' src={project.featureImg1} alt=""/>
+            <div className='projectDetails py-5 container'>
+                <div className="row">
+                    <div className="col-md-4 my-3">
+                        <img className='img-fluid h-100 w-100' src={project.featureImg1} alt=""/>
                     </div>
                     <div className="col-md-4 my-3">
-                        <img className='image-fluid h-100 w-100' src={project.featureImg2} alt=""/>
+                        <img className='img-fluid h-100 w-100' src={project.featureImg2} alt=""/>
                     </div>
                     <div className="col-md-4 my-3">
-                        <img className='image-fluid h-100 w-100' src={project.featureImg3} alt=""/>
+                        <img className='img-fluid h-100 w-100' src={project.featureImg3} alt=""/>
                     </div>
                 </div>
 

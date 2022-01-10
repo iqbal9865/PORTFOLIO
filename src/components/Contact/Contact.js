@@ -57,15 +57,15 @@ const Contact = () => {
 
                             <div className='form-group container col-md-12 my-3'>
                             <input className='form-control' placeholder='Enter Your Email' {...register("email", { required: true })} />
-                            {errors.exampleRequired && <span>This field is required</span>}
+                            {errors.email && <span>This field is required</span>}
                             </div>
 
                             <div className="form-group container col-md-12 my-3">
-                            <input className="form-control" placeholder='Your Subject' {...register("subject")} />
+                            <input className="form-control" placeholder='Your Subject' {...register("subject",{ required: true })} />
                             </div>
                         </div>
                         <div className='form-group container'>
-                             <textarea className='form-control' placeholder='Your Message' rows="5" cols="100">
+                             <textarea className='form-control' placeholder='Your Message' rows="5" cols="100"  {...register("text", { required: true })}>
                         
                         </textarea> </div>
                          <input className='submit my-4 d-flex justify-content-start' type="submit" value='SEND MESSAGE' />
