@@ -7,7 +7,6 @@ import { faFacebook,faGithub,faLinkedin } from '@fortawesome/free-brands-svg-ico
 
 const Header = () => {
     return (
-        
         <div className='row p-5 w-100 m-auto'>      
             <div className='col-md-5 col-sm-12 image-section '>
                <img className='img-fluid image' src={iqbal1} alt=""/>
@@ -40,6 +39,8 @@ const Header = () => {
             </div>
             
         </div>
+        
+        
     );
 };
 
