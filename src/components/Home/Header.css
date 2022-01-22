@@ -15,6 +15,7 @@
    padding:15px 40px;
    border-radius:2em;
    background-color: #222B45;
+   transition: .5s;
 }
 .about button:hover{
     background-color: #ffb400;

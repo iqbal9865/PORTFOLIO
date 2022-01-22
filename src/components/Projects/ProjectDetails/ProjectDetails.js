@@ -34,11 +34,12 @@ const ProjectDetails = () => {
                 
 
         <div className='row w-100 m-auto px-5'>
-        <h1 className='name mt-5 mb-5'> {name}</h1>
+        <h1 className='name my-3'> {name}</h1>
+        <h4><a className='live-link' href={Live}>LIVE SITE</a></h4>
                 <div className="col-md-6  half-width">
                     <h3>Project Description</h3>
                     <p className='d-flex justify-content-center text-start text-justify'>{description}</p> <br/>
-                    <h4><a className='live-link' href={Live}>LIVE SITE</a></h4>
+                    
                 </div>
                 
             <div className="col-md-6">

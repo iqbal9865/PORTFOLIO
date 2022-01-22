@@ -21,7 +21,7 @@ li{
 }
 .live-link{
     text-decoration: none;
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
     color: #ffb400;
 }
 .live-link:hover{
