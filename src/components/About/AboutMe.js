@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css';
-import iqbal3 from '../../Images/iqbal3.JPG'
 import Iqbal2 from '../../Images/Iqbal2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
