@@ -22,6 +22,10 @@ const Skills = () => {
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '80%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <h5 className='text-start'>SASS</h5>
+                    <div class="progress mb-4 pg-bar">
+                    <div class="progress-bar bg-warning" role="progressbar" style={{width: '70%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
                 <div className="col-md-6 my-4">
                     <h5 className='text-start'>CSS</h5>
@@ -39,6 +43,10 @@ const Skills = () => {
                     <h5 className='text-start'>Node.js</h5>
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '45%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h5 className='text-start'>TailWind CSS</h5>
+                    <div class="progress mb-4 pg-bar">
+                    <div class="progress-bar bg-warning" role="progressbar" style={{width: '65%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
