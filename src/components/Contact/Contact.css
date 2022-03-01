@@ -10,6 +10,10 @@ input{
     transition: .3s;
     padding: 10px 09px!important;   
 }
+.form-control:focus {
+    border-color: inherit;
+    box-shadow: none;
+}
 textarea{
      border-radius: 0!important; 
     margin-top: 2em;
