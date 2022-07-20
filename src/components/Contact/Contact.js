@@ -17,8 +17,8 @@ const Contact = () => {
             <Navbar/>
             <div>
                 <div className='row py-2 w-100 m-auto container'>
-                    <h1 className='my-3 get-in-touch' style={{fontSize:'45px',color:'#ffb400'}}>GET IN TOUCH </h1>
-                    <div className='col-lg-4 col-12'>
+                    
+                    <div className='col-lg-4 col-12 mt-5 pt-5'>
                         <div className=''>
                             <h4 style={{fontSize:'30px'}} className='text-start pr-5'>SEND ME AN EMAIL</h4>
                             <p style={{fontSize:'18px'}} className='text-start pr-5'>Feel free to get in touch with me. I am always open to discussing new  projects or creative ideas.</p>
@@ -43,11 +43,9 @@ const Contact = () => {
                         <a href="https://github.com/iqbal9865"><FontAwesomeIcon style={{fontSize:'30px',marginLeft:'10px',marginBottom:'30px',color:'#fff'}} icon={faGithub} /></a>
                         <a href="https://www.linkedin.com/in/iqbal-ahmed43/"><FontAwesomeIcon style={{fontSize:'30px',marginLeft:'10px',marginBottom:'30px',color:'#fff'}} icon={faLinkedin} /></a>
                         </div>
-                       
-                        
-
                     </div>
                     <div className='col-lg-8 col-12'>
+                    <h1 className='my-3 get-in-touch' style={{fontSize:'45px',color:'#ffb400', textAlign: 'left', padding: '0 18px'}}>GET IN TOUCH </h1>
                       <form className='form' target='_blank' action="https://formspree.io/f/xgerozkq"
                         method="POST">
                         <div>
