@@ -26,7 +26,7 @@ const Contact = () => {
                         <div className='d-flex'>
                             <div className='text-start' style={{fontSize:'35px', color:'#ffb400'}}><FontAwesomeIcon icon={faEnvelopeOpen} /></div>
                             <div>
-                                <h5 className='text-start px-4'>MAIL ME</h5>
+                                <h5 className='text-start px-4'>EMAIL</h5>
                                 <h5 className='text-start px-4'>iqbalahmed9865@gmail.com</h5>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                         <div className='d-flex my-4'>
                             <div className='text-start' style={{fontSize:'40px', color:'#ffb400'}}><FontAwesomeIcon icon={faPhoneSquareAlt} /></div>
                             <div>
-                                <h5 className='text-start px-4'>CALL ME</h5>
+                                <h5 className='text-start px-4'>PHONE</h5>
                                 <h5 className='text-start px-4'>01755837019</h5>
                             </div>     
                         </div>

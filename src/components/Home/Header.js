@@ -16,7 +16,7 @@ const Header = () => {
                     <h1 className="pt-5" style={{color: '#ffb400',letterSpacing:'1px'}}> Hi I'M IQBAL AHMED.</h1>
                     <h1 className="text-white">
                             <Typical
-                                steps={['Web Developer', 1000, 'React Developer', 1000,'MERN Stack Developer', 1000,'Front-End Developer', 1000]}
+                                steps={['Web Developer', 1000, 'JavaScript Developer', 1000, 'Front-End Developer', 1000, 'React Developer', 1000]}
                                 loop={Infinity}
                                 wrapper="h2"
                             />

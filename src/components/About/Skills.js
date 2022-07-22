@@ -18,7 +18,7 @@ const Skills = () => {
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '50%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <h5 className='text-start'>BootStrap</h5>
+                    <h5 className='text-start'>Bootstrap</h5>
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '80%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -44,7 +44,7 @@ const Skills = () => {
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '45%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <h5 className='text-start'>TailWind CSS</h5>
+                    <h5 className='text-start'>Angular</h5>
                     <div class="progress mb-4 pg-bar">
                     <div class="progress-bar bg-warning" role="progressbar" style={{width: '65%'}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
